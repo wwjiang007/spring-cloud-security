@@ -38,7 +38,7 @@ import org.springframework.security.oauth2.provider.authentication.OAuth2Authent
  */
 public class AccessTokenContextRelay {
 
-	private final OAuth2ClientContext context;
+	private OAuth2ClientContext context;
 
 	public AccessTokenContextRelay(OAuth2ClientContext context) {
 		this.context = context;
